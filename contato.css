@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400&display=swap');
+body{background-color: rgb(232, 157, 255);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(67, 6, 75);
+    height: 10vh;
+    border: 1px solid rgb(67, 6, 75);
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+a{
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(234, 0, 255);
+}
+
+fieldset{
+    border: 0;
+}
+
+
+.contato1{text-align: center;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-size: 30px;
+
+margin-top: 90px;
+margin-left: 340px;
+border: 1px solid white;
+width: 47vw;
+height: 55vh;
+border-radius: 15px;
+padding: 20px;
+gap: 40px;
+flex-direction: column;
+}
+
+.campo{
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 36%;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+    color:   rgb(67, 6, 75);
+}
+
+input, select, textarea, button{
+
+    border-radius: 5px;
+}
+
+fieldset.grupo{
+
+    float: left;
+    margin-right: 1em;
+
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid rgb(67, 6, 75);
+    box-shadow: 2px 2px 2px;
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo select:focus{
+    background-color: rgb(235, 195, 247) ;
+}
+
+
+.botao{
+    font-size: 1.2em;
+    background: rgb(156, 93, 175) ;
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(235, 195, 247) ;
+    padding: 0.2em 0.6em;
+    margin-top: 15px;
+}
+
+botao:hover{
+    color: rgb(179, 20, 194)
+
+}

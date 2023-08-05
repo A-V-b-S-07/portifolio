@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400&display=swap');
+body{background-color: rgb(232, 157, 255);}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(67, 6, 75);
+    height: 10vh;
+    border: 1px solid rgb(67, 6, 75);
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+a{
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(234, 0, 255);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    border: 1px solid white;
+}
+
+.p{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+
+    margin-top: 50px;
+    margin-left: 450px;
+
+    border: 1px solid white;
+    width: 30vw;
+    height: 25vh;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    background-color: rgb(232, 157, 255);  
+}
+.i{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+
+    margin-top: 50px;
+    margin-left: 450px;
+
+    border: 1px solid white;
+    width: 30vw;
+    height: 20vh;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    background-color: rgb(232, 157, 255);
+}
+
+.indu{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+
+    margin-top: 50px;
+    margin-left: 450px;
+
+    border: 1px solid white;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    background-color: rgb(232, 157, 255);
+}
